@@ -1,12 +1,14 @@
 # FitnessApp
 
-# Part 1
+## Part 1
     Create a “Login” view with username and password input fields (0.75 points)
         You may want to provide the user with feedback if there is an error, such as "Username/Password Incorrect!"
         You should be able to switch between Login and Signup pages/modes. 
+    
     Create a “Signup” view with username and password fields (0.75 points)
         You may want to provide the user with feedback if there is an error, such as "Username already taken!" or "Password too short!"
         You should be able to switch between Login and Signup pages/modes.
+    
     Create a profile view that allows the logged-in user to view and edit their name and goals (0.25 points)
         For the time being, this can be the only landing page in the application. We will be expanding the application in later assignments.
     Clean and clear code/interface (0.25 points)
@@ -14,12 +16,15 @@
             User feedback is reasonable
             Design is clear and visually appealing (Note: check the Approved Packages (Links to an external site.) page for styling components)
             Code is understandable
-# Part 2
+## Part 2
  Make the landing page (once the user is signed-in) a Current Day view that reviews their current stats for the day (0.8 points)
 
     You will need to aggregate the data from all activities for that day and summarize them to the user.
+    
     You will similarly display a summary of meal/food information for that day to the user, but the values can be randomly created for this assignment. If you do want to aggregate based on their daily meal/food data, feel free (this will be part of React Native 3). 
+    
     You should be able to switch between Login and Signup pages/modes. 
+    
     Users should be able to compare their personal goals (from their user data) to their daily stats.
 
 Create an Activities reviewer/editor (0.8 points)
@@ -29,12 +34,13 @@ Create an Activities reviewer/editor (0.8 points)
 
 Users should be able to sign out of or delete their account. (0.15 points)
 
-# Part 3
+## Part 3
 
     Create an Meals reviewer/editor (1.2 points)
         Users should be able to create meals, and these should be added to the server. When created, meal times should be able to be configured as either the current time, or some other time.
         Users should be able to add, modify, and delete meals.
         Users should be able to see the stats for each meal (aggregated data from all foods in that meal). In other words, total Calories, Protein, etc. 
+    
     Create a Foods reviewer/editor (0.8 points)
         Users should be able to create foods in each meal, and these should be added to the server. You can base these off the list of foods provided by the endpoint /foods on the server if you like, but you are not limited to that list.
         Users should be able to add, modify, and delete foods in a given meal. 
